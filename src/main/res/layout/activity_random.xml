@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:background="@color/background"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal"
+	tools:context=".RandomActivity">
+
+	<LinearLayout
+		android:layout_gravity="center_vertical"
+		android:layout_weight="1"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/sizeTip"
+			android:layout_gravity="center_horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/size"
+			android:textColor="@color/normalNode"
+			android:textSize="15sp"
+			android:textStyle="bold"/>
+
+		<SeekBar
+			android:id="@+id/size"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:progress="4"
+			android:max="17"
+			android:thumbTint="@color/normalNode"
+			android:progressTint="@color/normalNode"
+			android:progressBackgroundTint="@color/background"/>
+
+		<TextView
+			android:id="@+id/complexityTip"
+			android:layout_gravity="center_horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/complexity"
+			android:textColor="@color/normalNode"
+			android:textSize="15sp"
+			android:textStyle="bold"/>
+
+		<SeekBar
+			android:id="@+id/complexity"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:progress="4"
+			android:max="9"
+			android:thumbTint="@color/normalNode"
+			android:progressTint="@color/normalNode"
+			android:progressBackgroundTint="@color/background" />
+
+		<Button
+			android:id="@+id/button3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:onClick="startLevel"
+			android:text="@string/start_btn"
+			style="@style/ButtonStyle" />
+
+	</LinearLayout>
+
+</LinearLayout>

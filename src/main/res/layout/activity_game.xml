@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/background"
+	tools:context=".GameActivity">
+	
+	<com.vanderwalvis.hashiwokakero.Hashiwokakero
+		android:id="@+id/game"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent" />
+	
+	<Button
+		android:id="@+id/undo"
+		style="@style/ButtonStyle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentRight="true"
+		android:layout_margin="10dp"
+		android:onClick="undo"
+		android:text="@string/undo_btn" />
+	
+	<LinearLayout
+		android:id="@+id/cheer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_margin="20dp"
+		android:background="@drawable/menu"
+		android:orientation="vertical"
+		android:padding="20dp"
+		android:visibility="gone">
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:text="@string/cheer_msg"
+			android:textColor="@color/normalNode"
+			android:textSize="20sp"
+			android:textStyle="bold" />
+		
+		<Button
+			style="@style/ButtonStyle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:onClick="finish"
+			android:text="@string/next_btn" />
+	</LinearLayout>
+
+</RelativeLayout>

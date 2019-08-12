@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Hashiwokakero</string>
+	<string name="level_select_btn">Level Selectie</string>
+	<string name="random_level_btn">Willekeurig Level</string>
+	<string name="undo_btn">Ongedaan</string>
+	<string name="start_btn">Starten</string>
+	<string name="complexity">Moeilijkheidsgraad</string>
+	<string name="select_level">Selecteer Level</string>
+	<string name="next_btn">Volgend Level</string>
+	<string name="cheer_msg">Goed gedaan!</string>
+	<string name="size">Grootte</string>
+</resources>

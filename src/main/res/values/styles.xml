@@ -1,0 +1,16 @@
+<resources>
+	<style name="ButtonStyle">
+		<item name="android:background">@drawable/button</item>
+		<item name="android:layout_margin">5dp</item>
+		<item name="android:textColor">@color/normalNode</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="Level">
+		<item name="android:background">@color/normalNode</item>
+		<item name="android:textColor">@color/text</item>
+	</style>
+	<style name="WonLevel">
+		<item name="android:background">@color/validNode</item>
+		<item name="android:textColor">@color/text</item>
+	</style>
+</resources>

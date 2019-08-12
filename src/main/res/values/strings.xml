@@ -1,0 +1,12 @@
+<resources>
+	<string name="app_name">Hashiwokakero</string>
+	<string name="undo_btn">Undo</string>
+	<string name="level_select_btn">Level Selection</string>
+	<string name="random_level_btn">Random level</string>
+	<string name="start_btn">Start</string>
+	<string name="size">Size</string>
+	<string name="complexity">Complexity</string>
+	<string name="select_level">Select Level</string>
+	<string name="next_btn">Next Level</string>
+	<string name="cheer_msg">Well done!</string>
+</resources>

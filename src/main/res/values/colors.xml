@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#21252d</color>
+	<color name="text">@color/background</color>
+
+	<color name="validNode">#37ff91</color>
+	<color name="normalNode">#e9f3f9</color>
+	<color name="invalidNode">#f93559</color>
+</resources>
